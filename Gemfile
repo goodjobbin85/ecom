@@ -15,6 +15,8 @@ gem "sqlite3", "~> 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
+
 # Bundle and transpile JavaScript [https://github.com/rails/jsbundling-rails]
 gem "jsbundling-rails"
 
@@ -75,3 +77,5 @@ group :test do
 end
 
 gem "devise", "~> 4.9"
+gem "font-awesome-sass", "~> 6.5.1"
+gem "tailwindcss-rails", "~> 2.6"
